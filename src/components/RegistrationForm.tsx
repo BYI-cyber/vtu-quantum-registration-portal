@@ -198,7 +198,7 @@ export default function RegistrationForm() {
                 {...register('registrationType')}
                 className="w-4 h-4 text-university-blue border-gray-300 focus:ring-university-blue"
               />
-              <span className="ml-3 text-gray-700 font-medium">Standard Participant</span>
+              <span className="ml-3 text-gray-700 font-medium"></span>
             </label>
             <label className="flex items-center p-3 border border-gray-200 rounded-md cursor-pointer hover:bg-gray-50 transition-colors">
               <input
@@ -207,7 +207,7 @@ export default function RegistrationForm() {
                 {...register('registrationType')}
                 className="w-4 h-4 text-university-blue border-gray-300 focus:ring-university-blue"
               />
-              <span className="ml-3 text-gray-700 font-medium">Research Presenter</span>
+              <span className="ml-3 text-gray-700 font-medium">Attendere (visiter)</span>
             </label>
           </div>
           {errors.registrationType && <p className="text-red-500 text-sm mt-1.5 font-medium">{errors.registrationType.message}</p>}
