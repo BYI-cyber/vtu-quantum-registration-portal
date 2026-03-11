@@ -34,9 +34,13 @@ function App() {
           <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
             Pre-Registration Portal
           </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-            Welcome to the preliminary registration platform for the Quantum Student Summit 2026. Please complete the form below to secure your initial registration.
+            <p className="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+            Pre Registration – VTU Quantum Student Summit 2026
+            Welcome to the pre registration platform for the VTU Quantum Student Summit 2026. Please complete the form below to secure your initial registration. </p>
+          <p> - Event Dates: April 16th–17th, 2026
+            - Venue: Dr. A. P. J. Abdul Kalam Auditorium, VTU Main Campus, Belagavi
           </p>
+
           
           <div className="mt-6 bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-md text-left inline-block max-w-2xl w-full shadow-sm">
             <div className="flex">
