@@ -235,7 +235,7 @@ export default function RegistrationForm() {
                   {...register('presentationType')}
                   className="w-4 h-4 text-university-blue border-gray-300 focus:ring-university-blue"
                 />
-                <span className="ml-3 text-gray-700">qubithon (ideathon)</span>
+                <span className="ml-3 text-gray-700">Qubithon (ideathon)</span>
               </label>
             </div>
             {errors.presentationType && <p className="text-red-500 text-sm mt-2 font-medium">{errors.presentationType.message}</p>}
